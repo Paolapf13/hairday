@@ -1,0 +1,352 @@
+body{
+    margin-top: 3 rem; 
+    margin-bottom: 3 rem;
+    margin-left: 2%;
+    margin-right: 2%;
+    justify-content: center;
+}
+
+h1{
+    font-size: 3vw;
+    font-family: 'Century Gothic';
+}
+
+h2{
+    font-size: 30px;
+    line-height:0px;
+    font-family: 'Century Gothic';
+}
+
+p{
+    font-size:1vw;
+    font-family: 'Century Gothic';
+}
+
+header > img {
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    width: 125px;
+}
+
+#socials{
+    float:right;
+    padding-right:15px;
+}
+
+header{
+    padding-bottom:10px;
+    padding-top: 7px;
+}
+
+nav{
+    margin:auto;
+    padding:0;
+    
+    
+}
+
+nav ul{
+    list-style: none;
+    text-align:center;
+    background-color: #f7a88f;
+    border-radius: 10px;
+    font-weight: bolder;
+}
+
+nav li{
+    display:inline-block;
+    text-decoration: none;
+    font-family: 'Century Gothic';
+    font-size: 16px;
+    padding:5px;
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+    padding:25px;
+  
+}
+
+a:hover {
+    color:black;
+}
+
+section{
+    display:flex;
+    padding-bottom:20px;
+    align-items: center;
+    justify-content: center;
+}
+
+article{
+    flex:1;
+    align-items: center;
+    justify-content: center;
+   
+}
+
+#front {
+    position:relative;
+    
+}
+
+#relax{
+    display: block;
+    border-radius: 10px;
+}
+
+#welcometext{
+    position:absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: black;
+    border-radius: 10px;
+}
+
+#welcometext:hover{
+    opacity:.70;
+}
+
+#text{
+    color: white;
+    font-size: 20px;
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    width:100%;
+    height: auto;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+button {
+    width:115px;
+    height:40px;
+    background-color: #f7a88f;
+    color:white;
+    opacity:1;
+    font-weight: bolder;
+    border-color:white;
+    border-radius: 15px;
+    font-family: "Century Gothic";
+}
+
+button:hover{
+    background-color: white;
+    color:#f7a88f;
+    cursor:pointer;
+}
+
+.container{
+    background-color: #f9d4c9;
+    margin:1%;
+    border-radius: 10px;
+    float:left;
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+.container img {
+    border-radius: 10px;
+}
+
+
+footer{
+    display:flex;
+    padding-top: 20px;
+    justify-content:center;
+}
+
+footer div{
+    display:1;
+    align-self:center;
+    padding-left: 25px;
+}
+
+footer img{
+    width:50px;
+    float: left;
+}
+
+#copyright{
+    position:absolute;
+    top:0;
+    right:0;
+}
+
+#letters{
+    font-size: 5vw;
+    font-weight: bolder;
+    text-align: center;
+    color:#d0604c;
+    display: block;
+    padding:10px;
+    padding-bottom:17px;
+    margin:auto;
+}
+
+/*booking page*/
+
+.datacontainer{
+    display:flex;
+    flex-direction: row;
+    background-color:#f9d4c9;
+    border-radius: 10px;
+    width:60%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 15px;
+    margin:auto;
+    margin-bottom:35px;
+
+}
+
+.datacontainer div{
+   flex:1;
+}
+
+.datacontainer p{
+    font-size: 15px;
+    font-family: "Century Gothic";
+}
+
+.datacontainer img{
+    border-radius: 10px;
+}
+
+#almostthere div{
+    position:absolute;
+    left:32%;
+    top:45%;
+    color:white;
+}
+
+.Data {
+    display:block;
+    font-size:15px;
+    font-family:"Century Gothic";
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 15px;
+}
+
+label{
+    display: block;
+    padding-bottom: 3px;
+}
+
+input, select{
+    border-radius: 10px;
+    border: none;
+    width:40%;
+    height:25px;
+    box-sizing: border-box;
+    resize:none;
+    text-align: center;
+   
+}
+
+::placeholder{
+    opacity:0.6;
+}
+
+#submit{
+    width:40%;
+}
+
+/*seccion about us */
+
+.aboutcontainer{
+    display:flex;
+    flex:1;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 70%;
+    margin: auto;
+}
+
+.aboutcontainer img{
+    border-radius: 5%;
+}
+
+.aboutcontainer p{
+    font-family: "Century Gothic";
+    font-size: 1vw;
+    margin: 20px;
+}
+
+/*seccion our services*/
+
+#ourservices{
+    display:grid;
+    grid-template-columns: repeat(3,25%);
+    justify-content: center;
+    text-align: center;
+    align-items:center;
+
+}
+
+#ourservices div{
+    padding:20px;
+}
+
+.services p{
+    font-family: "Century Gothic";
+}
+
+.services img{
+    border-radius: 5px;
+}
+
+h3{
+    font-family: "Century Gothic";
+    font-size: 25px;
+    color:#d0604c;
+    padding-bottom: -5px;
+}
+
+.CTA{
+    background-color: #f9d4c9;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    text-align: center;
+    border-radius: 7px;
+    height:125px;
+}
+
+.CTA div{
+    flex:40% 30% 25% ;
+    padding-left:15px;
+    
+}
+
+h4{
+    font-family: "Century Gothic";
+    font-size: 40px;
+    color:#d0604c;
+    padding-bottom: -5px;
+}
+
+.CTA button{
+    float: left;
+    width: 150px;
+    height:55px;
+    font-size: 15px;
+}
+
+
+
